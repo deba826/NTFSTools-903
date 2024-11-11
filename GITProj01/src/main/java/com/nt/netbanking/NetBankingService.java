@@ -28,8 +28,6 @@ public String transferMoney(long srcAcno,long destAcno, double amount) {
 		return amount+" is deposited in to the account number: :"+acno;
 
 	}
-	
-
 
 
 	public void abc() {
