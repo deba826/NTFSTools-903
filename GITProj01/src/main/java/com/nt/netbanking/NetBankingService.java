@@ -30,8 +30,8 @@ public String transferMoney(long srcAcno,long destAcno, double amount) {
 	}
 
 
-	public void xyz() {
-		System.out.println("xyz");
+	public void abc() {
+		System.out.println("abc");
 	}
 	
 	
