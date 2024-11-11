@@ -9,15 +9,7 @@ public class NetBankingService {
 		return"account is opened with acc number::"+new Random().nextLong(5000000000000L);
 						
 	}
-	public String withdraw(long acno,double amount) {
-		return amount+" is withdrawn from the account number: :"+acno;
-	}
 	
-	public String deposite(long acno,double amount) {
-		return amount+" is deposited in to the account number: :"+acno;
-	}
 	
-	public String closeAccount() {
-		return "Account is closed";
-	}
+	
 }
