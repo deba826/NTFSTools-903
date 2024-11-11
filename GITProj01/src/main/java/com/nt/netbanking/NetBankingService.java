@@ -6,15 +6,12 @@ public class NetBankingService {
 
 	
 	public String openAccount(String addhar,double initialamount,String type) {
-		return"account is opened with acc number::"+new Random().nextLong(5000000000000L);
-						
-	}
-	public String withdraw(long acno,double amount) {
-		return amount+" is withdrawn from the account number: :"+acno;
+		return"account is opened with acc number::"+new Random().nextLong(5000000000000L);					
 	}
 	
-	public String deposite(long acno,double amount) {
-		return amount+" is deposited in to the account number: :"+acno;
+public String transferMoney(long srcAcno,long destAcno, double amount) {
+		
+		return null;
 	}
 	
 	public String closeAccount() {
