@@ -29,7 +29,14 @@ public String transferMoney(long srcAcno,long destAcno, double amount) {
 
 	}
 
+
 	public void abc() {
 		System.out.println("abc");
+	}
+	
+	
+	public double cheakBalance(){
+		return new Random().nextLong(100000);
+
 	}
 }
