@@ -10,6 +10,13 @@ public class NetBankingService {
 	}
 	
 
+
+public String transferMoney(long srcAcno,long destAcno, double amount) {
+		
+		return "transfering"+"from"+srcAcno+" to "+destAcno;
+	}
+
+
 	public String closeAccount() {
 		return"Account is closed";
 	}
