@@ -12,7 +12,7 @@ public class NetBankingService {
 	public String withdraw(long acno,double amount) {
 		return amount+" is withdrawn from the account number: :"+acno;
 	}
-	
+//dsfgg	
 	public String deposite(long acno,double amount) {
 		return amount+" is deposited in to the account number: :"+acno;
 	}
