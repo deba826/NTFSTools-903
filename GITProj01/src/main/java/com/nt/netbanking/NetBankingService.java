@@ -6,9 +6,9 @@ public class NetBankingService {
 
 	
 	public String openAccount(String addhar,double initialamount,String type) {
-		return"account is opened with acc number::"+new Random().nextLong(5000000000000L);
-						
+		return"account is opened with acc number::"+new Random().nextLong(5000000000000L);					
 	}
+	
 	public String withdraw(long acno,double amount) {
 		return amount+" is withdrawn from the account number: :"+acno;
 	}
@@ -16,4 +16,6 @@ public class NetBankingService {
 	public String deposite(long acno,double amount) {
 		return amount+" is deposited in to the account number: :"+acno;
 	}
+
+	
 }
